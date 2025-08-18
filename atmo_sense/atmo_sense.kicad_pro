@@ -9,9 +9,9 @@
         "board_outline_line_width": 0.05,
         "copper_line_width": 0.2,
         "copper_text_italic": false,
-        "copper_text_size_h": 1.5,
-        "copper_text_size_v": 1.5,
-        "copper_text_thickness": 0.3,
+        "copper_text_size_h": 0.5,
+        "copper_text_size_v": 0.5,
+        "copper_text_thickness": 0.125,
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
         "dimension_precision": 4,
@@ -26,15 +26,15 @@
         },
         "fab_line_width": 0.1,
         "fab_text_italic": false,
-        "fab_text_size_h": 1.0,
-        "fab_text_size_v": 1.0,
-        "fab_text_thickness": 0.15,
+        "fab_text_size_h": 0.3,
+        "fab_text_size_v": 0.3,
+        "fab_text_thickness": 0.075,
         "fab_text_upright": false,
         "other_line_width": 0.1,
         "other_text_italic": false,
-        "other_text_size_h": 1.0,
-        "other_text_size_v": 1.0,
-        "other_text_thickness": 0.15,
+        "other_text_size_h": 0.3,
+        "other_text_size_v": 0.3,
+        "other_text_thickness": 0.075,
         "other_text_upright": false,
         "pads": {
           "drill": 0.8,
@@ -43,9 +43,9 @@
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_size_h": 0.3,
+        "silk_text_size_v": 0.3,
+        "silk_text_thickness": 0.075,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.5
@@ -524,7 +524,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "VDDI",
+        "pattern": "Net-(J3-Pin_1)"
+      },
+      {
+        "netclass": "VDDI",
+        "pattern": "Net-(J3-Pin_2)"
+      },
+      {
+        "netclass": "VDDI",
+        "pattern": "Net-(PS1-AC/L)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
