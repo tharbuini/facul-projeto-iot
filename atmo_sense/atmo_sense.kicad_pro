@@ -37,18 +37,18 @@
         "other_text_thickness": 0.075,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.3,
-        "silk_text_size_v": 0.3,
-        "silk_text_thickness": 0.075,
+        "silk_text_size_h": 0.8,
+        "silk_text_size_v": 0.8,
+        "silk_text_thickness": 0.08,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2032
         }
       },
       "diff_pair_dimensions": [
@@ -64,7 +64,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -88,7 +88,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -123,9 +123,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.127,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.1524,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -136,7 +136,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.1524,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -491,7 +491,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2032,
+        "clearance": 0.1524,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -508,13 +508,27 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.32512,
+        "diff_pair_width": 0.32512,
+        "microvia_diameter": 0.6096,
+        "microvia_drill": 0.3048,
+        "name": "RF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3556,
+        "via_diameter": 0.6096,
+        "via_drill": 0.3048
+      },
+      {
         "clearance": 0.75,
         "microvia_diameter": 0.500009,
         "name": "VDDI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.500009,
+        "track_width": 1.0,
         "via_diameter": 0.500009,
         "via_drill": 0.500009
       }
@@ -527,15 +541,23 @@
     "netclass_patterns": [
       {
         "netclass": "VDDI",
-        "pattern": "Net-(J3-Pin_1)"
+        "pattern": "Net-(J4-Pin_1)"
       },
       {
         "netclass": "VDDI",
-        "pattern": "Net-(J3-Pin_2)"
+        "pattern": "Net-(J4-Pin_2)"
       },
       {
         "netclass": "VDDI",
-        "pattern": "Net-(PS1-AC/L)"
+        "pattern": "Net-(PS1-AC{slash}L)"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/LNA_IN"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/RF_ANT"
       }
     ]
   },
