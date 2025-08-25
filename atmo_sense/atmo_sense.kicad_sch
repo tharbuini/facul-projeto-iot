@@ -5437,6 +5437,16 @@
 		)
 		(uuid "c922369e-7714-4d64-a00b-2e26417d87af")
 	)
+	(text "FUROS PARA FIXAÇÃO"
+		(exclude_from_sim no)
+		(at 101.6 191.516 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cde12a41-01f5-4172-bd0f-c6c0a8660a3f")
+	)
 	(text "BOOT MODE"
 		(exclude_from_sim no)
 		(at 76.962 30.734 0)
@@ -6871,6 +6881,16 @@
 			(type default)
 		)
 		(uuid "8c5c5530-8e6c-420d-8a92-9044cde7bd42")
+	)
+	(polyline
+		(pts
+			(xy 91.44 189.23) (xy 210.82 189.23)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8d213cc7-4820-4ef4-aead-2e2055fecb6b")
 	)
 	(wire
 		(pts
@@ -8713,7 +8733,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 111.76 227.33 0)
+		(at 151.13 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8722,7 +8742,7 @@
 		(fields_autoplaced yes)
 		(uuid "045e3bbc-da0e-4572-9a55-98013295fe41")
 		(property "Reference" "H3"
-			(at 114.3 226.0599 0)
+			(at 153.67 196.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8731,7 +8751,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 114.3 228.5999 0)
+			(at 153.67 199.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8740,7 +8760,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2mm"
-			(at 111.76 227.33 0)
+			(at 151.13 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8749,7 +8769,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 227.33 0)
+			(at 151.13 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8758,7 +8778,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 227.33 0)
+			(at 151.13 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14789,7 +14809,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 111.76 212.09 0)
+		(at 102.87 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14798,7 +14818,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca5768fe-dbd9-454d-b5e4-51652ade758a")
 		(property "Reference" "H1"
-			(at 114.3 210.8199 0)
+			(at 105.41 196.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14807,7 +14827,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 114.3 213.3599 0)
+			(at 105.41 199.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14816,7 +14836,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2mm"
-			(at 111.76 212.09 0)
+			(at 102.87 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14825,7 +14845,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 212.09 0)
+			(at 102.87 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14834,7 +14854,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 212.09 0)
+			(at 102.87 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15906,7 +15926,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 111.76 219.71 0)
+		(at 127 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15915,7 +15935,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb65e823-ec3e-42ac-80ad-991ba0639c43")
 		(property "Reference" "H2"
-			(at 114.3 218.4399 0)
+			(at 129.54 196.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15924,7 +15944,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 114.3 220.9799 0)
+			(at 129.54 199.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15933,7 +15953,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2mm"
-			(at 111.76 219.71 0)
+			(at 127 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15942,7 +15962,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 219.71 0)
+			(at 127 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15951,7 +15971,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 219.71 0)
+			(at 127 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
